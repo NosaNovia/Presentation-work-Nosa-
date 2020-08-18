@@ -1,0 +1,309 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+
+h2 {
+	color: #fff;
+}
+
+.title {
+	color: grey;
+	font-weight: bold;
+	
+}
+.list {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+.list-item {
+	color: whitesmoke;
+	font-family: 'Times New Roman', Times, serif;
+	float: left;
+	  width: 16.66%;
+	  
+}
+
+.navbar {
+	width: 100%;
+	padding: 15px 10px 30px 10px;
+	border-bottom: black;
+	z-index: 100;
+	background-color: lightgray;
+	
+}
+
+.slidercontainer {
+	margin-top: 100px;
+	height: 100%;
+	/* padding: 20px 40px 20px 40px; */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	position: relative;
+}
+
+
+
+.caption {
+	text-align: center;
+}
+
+.parentbox{
+		width: 98%;
+		height: 900px;
+		margin: 0;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		margin-top: 50px;
+		background-size: 100% 100% ;
+		background-image: url(https://cdn140.picsart.com/264629097012212.png);
+}
+.childbox{	
+		height: 400px;
+		top: 50%;
+		left: 50%;
+		padding: 30px 40px; 
+		text-align: center; 	  
+	  
+}
+
+
+.youthTitle {
+	margin-top: 130px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px grey;
+	z-index: 100;
+	top: 40%;
+	left: 50%;
+}
+
+.subtitle{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	color: grey;
+	font-family: monospace;
+	
+}
+
+.intro{
+	font-size: 15px;
+	line-height: 2.2em;
+	margin: 150px 100px 150px 100px;
+	margin-top: 40px;
+	padding: 20px, 40px, 20px, 20px;
+	font-family: monospace;
+}
+
+.redtext{
+	color: pink;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+  
+.retro{
+	text-shadow: 1px 1px lightpink;
+}
+
+
+
+  
+.join{
+	margin-top: 60px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px grey;
+
+}
+
+
+.secondtext{
+	justify-content: center;
+	margin: 150px 100px 150px 100px;
+	margin-top: 50px;
+	line-height: 2.2em;
+	color: whitesmoke;
+	font-family: monospace;
+
+}
+
+/* about page */
+
+.breakfastClub{
+	margin-top: 60px;
+	height: 100%;
+	/* padding: 20px 40px 20px 40px; */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	position: relative;
+}
+
+.div{
+	margin-top: 50px;
+		background-size: 50% 50% auto ;
+		background-image: url("Error\ Message.png");
+		width: 100%;
+		height: 400px;
+		line-height: 2.0em;
+}
+
+.How{
+	margin-top: 50px;
+	text-align: center;
+	border: 10px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px grey;
+	filter: blur(0px);
+	background: lightblue;
+	background-size: auto;
+}
+
+.aboutinfo{
+	justify-content: center;
+	text-align: center;
+	margin: 150px 100px 150px 100px;
+	margin-top: 50px;
+	font-family: monospace;
+	background: white;
+	font-weight: bolder;
+	
+}
+
+.parentbox2{
+	width: auto;
+	height: 200px;
+	background-size: cover; 
+	background-color: lightsteelblue;
+	opacity: 0.6px;
+}
+
+
+
+.anotherimage{
+	margin-top: 100px;
+	height: 100%;
+	min-width: 50%;
+	max-width: 80%;
+	
+	
+}
+
+
+
+
+/* Meet the team */
+
+.row{
+	margin-top: 100px;
+}
+
+.meetTheTeam{
+	margin-top: 130px;
+	margin-bottom: 100px;
+	text-align: center;
+	color: lightblue;
+	font-size: 30px;
+	text-shadow: 2px 2px grey;
+	z-index: 100;
+	top: 40%;
+	left: 50%;
+	background-color: whitesmoke;
+
+}
+
+.h2{
+	color: black;
+
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 60px;
+	padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	}
+  }
+  
+  
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .container {
+	padding: 0 16px;
+	font-weight: bold;
+  }
+
+  .container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .Teamtitle {
+	color: grey;
+	line-height: 2em;
+	font-size: 18px;
+  }
+  
+  .button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  .button:hover {
+	background-color: #555;
+  }
+  .Mickey{
+	min-height: 30%;
+	max-height: 50% ;
+  }
+
+  .footer {
+
+	width: 100%;
+	background-color:lightslategray;
+	color: white;
+	text-align: center
+}
+
+.cookies{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color:lightblue;
+	color: white;
+	text-align: center
+}
+
+.countdown{
+	font-size: 30px;
+	font-weight: bolder;
+}
