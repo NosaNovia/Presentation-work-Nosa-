@@ -424,8 +424,10 @@ h2 {
 .bodyb{
   margin:0;
   padding:0;
+  height: 500px;
+  width: 100px;
   background-size: cover;
-background:url(https://www.lefthudson.com/wp-content/uploads/2019/11/90s-wallpapers-fresh-retro-90s-background-google-search-ax-work-stuff-of-the-day-of-90s-wallpapers.jpg);
+background-image:url("retroImage.jpg");
 background-position: center;
 }
 
