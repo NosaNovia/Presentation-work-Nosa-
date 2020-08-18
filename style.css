@@ -1,19 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	
+
 }
 
 
 h2 {
 	color: #fff;
+	text-align: center;
 }
 
 .title {
 	color: grey;
 	font-weight: bold;
-	
+
 }
 .list {
 	display: flex;
@@ -22,10 +26,10 @@ h2 {
 }
 .list-item {
 	color: whitesmoke;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Press Start 2P', cursive;
 	float: left;
 	  width: 16.66%;
-	  
+
 }
 
 .navbar {
@@ -34,7 +38,7 @@ h2 {
 	border-bottom: black;
 	z-index: 100;
 	background-color: lightgray;
-	
+
 }
 
 .slidercontainer {
@@ -47,6 +51,7 @@ h2 {
 	width: 50%;
 	position: relative;
 }
+
 
 
 
@@ -65,13 +70,13 @@ h2 {
 		background-size: 100% 100% ;
 		background-image: url(https://cdn140.picsart.com/264629097012212.png);
 }
-.childbox{	
+.childbox{
 		height: 400px;
 		top: 50%;
 		left: 50%;
-		padding: 30px 40px; 
-		text-align: center; 	  
-	  
+		padding: 30px 40px;
+		text-align: center;
+
 }
 
 
@@ -89,9 +94,10 @@ h2 {
 	margin-top: 20px;
 	font-weight: bold;
 	font-size: 16px;
+
 	color: grey;
 	font-family: monospace;
-	
+
 }
 
 .intro{
@@ -108,10 +114,81 @@ h2 {
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-  
+
 .retro{
 	text-shadow: 1px 1px lightpink;
 }
+
+
+
+
+.join{
+	margin-top: 60px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px grey;
+
+}
+
+
+.secondtext{
+	justify-content: center;
+	margin: 150px 100px 150px 100px;
+	margin-top: 50px;
+	text-align: center;
+
+}
+.about{
+	margin-top: 60px;
+	text-align: center;
+	border: 10px;
+}
+
+.aboutinfo{
+	justify-content: center;
+	margin: 150px 100px 150px 100px;
+	margin-top: 50px;
+	text-align: center;
+
+}
+.parentbox2{
+	width: auto;
+	height: 200px;
+	background-size: cover;
+	background-color: lightsteelblue;
+	opacity: 0.6px;
+}
+.button{
+
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin:auto;
+		display:block;
+
+	  }
+
+
+.anotherimage{
+	margin-top: 100px;
+	height: 100%;
+
+
+}
+
+.errormessage{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 50px;
+	width: 50%;
+}
+
+
 
 
 
@@ -287,8 +364,12 @@ h2 {
 
   .footer {
 
+	position: fixed;
+	
+	left: 0;
+  	bottom: 0;
 	width: 100%;
-	background-color:lightslategray;
+	background-color:lightblue;
 	color: white;
 	text-align: center
 }
@@ -303,7 +384,113 @@ h2 {
 	text-align: center
 }
 
-.countdown{
-	font-size: 30px;
-	font-weight: bolder;
+
+
+
+.button{
+
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin:auto;
+		display:block;
+
+	  }
+
+
+.anotherimage{
+	margin-top: 100px;
+	height: 100%;
+
+
+}
+
+.errormessage{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 50px;
+	width: 50%;
+}
+
+
+
+
+
+.bodyb{
+  margin:0;
+  padding:0;
+  background-size: cover;
+background:url("retroImage.jpg");
+background-position: center;
+}
+
+.contact-form {
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: center;
+  box-shadow: 0 0 0 12px pink;
+  text-align: center;
+  color: #b01973;
+}
+
+.subfont {
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+.contact-form h1 {
+  margin-top: 0;
+  font-weight: 200;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.txtb {
+  border: 1px solid #b01973;
+  margin: 8px 0;
+  padding: 12px 18px;
+}
+
+.txtb label {
+  display: block;
+  text-align: left;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.txtb input, .txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.btn {
+  display: block;
+  background: pink;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+input[type="text"] {
+  font-family:'Work Sans', sans-serif;
+  font-size: 15px;
 }
